@@ -1,0 +1,224 @@
+Kelvin Xu and John Fahy
+
+
+Assignment 6: Image Processing (Part 3)
+
+GUI User Guide
+
+Operation: Load Image
+- The user must click on the button labeled "Load Image" on the left panel and then navigate through
+  the file explorer to find the image they wish to load.
+- Once the user selects the image and presses the button labeled "Open" on the file explorer, another
+  button will pop up on the right panel labeled "Load a file". Next to that button is the file path of the selected image.
+- Next, the user must click on the button labeled "Load a file" and the image will be displayed.
+
+Operation: Brighten Image
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Brighten" on the left panel.
+- A new button will pop up opn the right panel labeled "Brighten Image". Next to that button is a text field where the
+  user must enter the value by which to brighten the image by.
+- Once the user enters the value, they must click the button labeled "Brighten Image" to brighten the image. The new image
+  will then be displayed. The user may also click the button labeled "Cancel" if the wish not to brighten the image.
+
+Operation: Vertical Flip
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Vertical Flip" on the left panel.
+- Once the user clicks this button the new image will then be displayed.
+
+Operation: Horizontal Flip
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Horizontal Flip" on the left panel.
+- Once the user clicks this button the new image will then be displayed.
+
+Operation: Blur
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Blur" on the left panel.
+- Once the user clicks on this button the new image will then be displayed.
+
+Operation: Sharpened
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Sharpen" on the left panel.
+- Once the user clicks on this button the new image will then be displayed.
+
+Operation: Sepia
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Sepia" on the left panel.
+- Once the user clicks on this button the new image will then be displayed.
+
+Operation: Greyscale
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Greyscale" on the left panel.
+- Once the user clicks on this button the new image will then be displayed.
+
+Operation: Component Visualization
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Component Visualization" on the left panel.
+- Once the user clicks on this button, several buttons will pop up on the right panel.
+- The user must now choose a component to visuzalize (red, green, blue, luma, value, intensity) and click on the
+  corresponding button.
+- Once the user clicks on this button the new image will then be displayed.
+
+Operation: Save
+- The user must load an image into the program as detailed above.
+- The user must click on the button labeled "Save" on the left panel.
+- Once the user clicks on this button a file explorer will pop up.
+- Once the user selects the file they would like to save the image to they must click te button labeled "Save" on the
+  file explorer pop out.
+- Once the user clicks this button a new button will pop up on the right panel labeled "Save Image to File" and next
+  to that button will be the file path the user indicated they would like to save the image to.
+- Next the user needs to click the button labeled "Save Image to File" and the image being displayed will be saved
+  to the specified file path.
+
+
+
+
+Assignment 5: Image Processing (Part 2)
+
+Load Command
+- Description: Loads an image file into the program and associates it with a given reference
+- Structure: load image-path image-reference
+- Example: "load res/Dog.ppm dog"
+- Conditions: The load command should be the first command entered into the program, as to perform
+              any image processing operations the program must first have an image to operate on.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Brighten Command
+- Description: Brightens or darkens an image by an increment and then associates the new image
+               with a new reference
+- Structure: brighten increment image-reference new-image-reference
+- Example: "brighten -50 dog bright-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be brightened.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Greyscale Command
+- Description: Greyscales an image and then associates the new image with a new reference
+- Structure: greyscale image-reference new-image-reference
+- Example: "greyscale dog grey-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be greyscaled.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Sepia Command
+- Description: Gives an image a sepia tone and then associates the new image with a new reference
+- Structure: sepia image-reference new-image-reference
+- Example: "sepia dog sepia-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be given a sepia tone.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Blur Command
+- Description: Blurs an image and then associates the new image with a new reference
+- Structure: blur image-reference new-image-reference
+- Example: "blur dog blur-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be blurred.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Sharpen Command
+- Description: Sharpens an image/makes an image clearer and then associates the new image with a new reference
+- Structure: sharpen image-reference new-image-reference
+- Example: "sharpen dog sharp-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be sharpened.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Horizontal Flip Command
+- Description: Flips an image horizontally and then associates the new image with a new reference
+- Structure: horizontal-flip image-reference new-image-reference
+- Example: "horizontal-flip dog horizontal-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be flipped horizontally.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Vertical Flip Command
+- Description: Flips an image vertically and then associates the new image with a new reference
+- Structure: vertical-flip image-reference new-image-reference
+- Example: "vertical-flip dog vertical-dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be flipped vertically.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+
+Red Component Command
+- Description: Visualizes the red component of the image
+- Structure: red-component image-reference new-image-reference
+- Example: "red-component dog red-dog"
+- Conditions: Must first use the load command to load an image into the program so that the red
+              component of the image can then be visualized.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+- Note: Specifically, this command will set the three channel values for each pixel to the value
+        of the pixel's red channel
+
+Green Component Command
+- Description: Visualizes the green component of the image
+- Structure: green-component image-reference new-image-reference
+- Example: "green-component dog green-dog"
+- Conditions: Must first use the load command to load an image into the program so that the green
+              component of the image can then be visualized.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+- Note: Specifically, this command will set the three channel values for each pixel to the value
+        of the pixel's green channel
+
+Blue Component Command
+- Description: Visualizes the blue component of the image
+- Structure: blue-component image-reference new-image-reference
+- Example: "blue-component dog blue-dog"
+- Conditions: Must first use the load command to load an image into the program so that the blue
+              component of the image can then be visualized.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+- Note: Specifically, this command will set the three channel values for each pixel to the value
+        of the pixel's blue channel
+
+Luma Component Command
+- Description: Visualizes the luma component of the image
+- Structure: luma-component image-reference new-image-reference
+- Example: "luma-component dog red-dog"
+- Conditions: Must first use the load command to load an image into the program so that the luma
+              component of the image can then be visualized.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+- Note: Specifically, this command will set the three channel values for each pixel to the result of
+        plugging the rgb channel values for that pixel into the formula: 0.2126r + 0.7152g + 0.0722b
+
+
+Value Component Command
+- Description: Visualizes the value component of the image
+- Structure: value-component image-reference new-image-reference
+- Example: "value-component dog red-dog"
+- Conditions: Must first use the load command to load an image into the program so that the value
+              component of the image can then be visualized.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+- Note: Specifically, this command will set the three channel values for each pixel to the maximum channel
+        value for that pixel.
+
+Intensity Component Command
+- Description: Visualizes the intensity component of the image
+- Structure: intensity-component image-reference new-image-reference
+- Example: "intensity-component dog red-dog"
+- Conditions: Must first use the load command to load an image into the program so that the intensity
+              component of the image can then be visualized.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+        of the image file
+- Note: Specifically, this command will set the three channel values for each pixel to the average
+        of the pixel's three channel values
+
+Save Command
+- Description: Saves an image to a specified image-path/file location
+- Structure: save image-path image-reference
+- Example: "save savedDog.png dog"
+- Conditions: Must first use the load command to load an image into the program so that it can then
+              be saved.
+- Note: the image-path is the relative path starting from the Project folder or the absolute path
+         of the image file

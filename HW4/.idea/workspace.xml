@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30586ae6-576d-412b-83a2-ab50ef444756" name="Changes" comment="cleaned up GUI and added error handling">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KoalaCopySaveTest.ppm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/HW4/controller/MockGUIView1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylezip.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/controller/FeaturesImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/controller/FeaturesImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/controller/GUIController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/controller/GUIController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/view/GUIView$ViewListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/view/GUIView$ViewListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/view/GUIView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/view/GUIView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HW4/view/Histogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HW4/view/Histogram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HW4/controller/ControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HW4/controller/ControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HW4/controller/FeaturesTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HW4/controller/FeaturesTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/HW4/controller/GUIControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/HW4/controller/GUIControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Features.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Features.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/FeaturesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/FeaturesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GUIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/GUIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/GUIView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Histogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Histogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/ImageGUIView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/ImageGUIView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/FeaturesTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/FeaturesTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/GUIControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/GUIControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/MockGUIView1.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/MockGUIView1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controller/MockImageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/controller/MockImageModel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AD3H8uVSAGgGrDfaV3b0gQ84p8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/John/OneDrive/Desktop/Desktop/OOD/group/HW4",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="controller" />
+      <recent name="view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FeaturesTest1">
+    <configuration name="Load brigthen flip grey-scale save" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW4" />
+      <option name="PROGRAM_PARAMETERS" value="load Koala.ppm koala brighten 50 koala koala-bright vertical-flip koala-bright koala-flip red-component koala-flip koala-grey save COMOP.ppm koala-grey q" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="HW4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Script" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW4" />
+      <option name="PROGRAM_PARAMETERS" value="script.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="System.in" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeaturesTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.FeaturesTest1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeaturesTest1.testBlur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.FeaturesTest1" />
+      <option name="METHOD_NAME" value="testBlur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeaturesTest1.testHorizontalFlip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.FeaturesTest1" />
+      <option name="METHOD_NAME" value="testHorizontalFlip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUIControllerTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HW4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="controller" />
+      <option name="MAIN_CLASS_NAME" value="controller.GUIControllerTest" />
+      <option name="METHOD_NAME" value="testExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Script" />
+      <item itemvalue="Application.System.in" />
+      <item itemvalue="Application.Load brigthen flip grey-scale save" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="JUnit.FeaturesTest1" />
+      <item itemvalue="JUnit.FeaturesTest1.testBlur" />
+      <item itemvalue="JUnit.FeaturesTest1.testHorizontalFlip" />
+      <item itemvalue="JUnit.GUIControllerTest.testExecute" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FeaturesTest1" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="JUnit.GUIControllerTest.testExecute" />
+        <item itemvalue="JUnit.FeaturesTest1.testBlur" />
+        <item itemvalue="JUnit.FeaturesTest1.testHorizontalFlip" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30586ae6-576d-412b-83a2-ab50ef444756" name="Changes" comment="" />
+      <created>1654530240148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654530240148</updated>
+      <workItem from="1654530241707" duration="1863000" />
+      <workItem from="1654711026549" duration="3115000" />
+      <workItem from="1654788809972" duration="9100000" />
+      <workItem from="1654993210933" duration="15292000" />
+      <workItem from="1655174609302" duration="1541000" />
+      <workItem from="1655220730446" duration="330000" />
+      <workItem from="1655248678781" duration="6086000" />
+      <workItem from="1655307654690" duration="56873000" />
+      <workItem from="1655528650706" duration="5315000" />
+      <workItem from="1655579859604" duration="1548000" />
+      <workItem from="1655663687474" duration="29000" />
+      <workItem from="1655665341156" duration="35000" />
+      <workItem from="1655677984031" duration="8660000" />
+      <workItem from="1655760997658" duration="8502000" />
+      <workItem from="1655771626203" duration="7364000" />
+      <workItem from="1655840784159" duration="5075000" />
+      <workItem from="1655847515604" duration="10247000" />
+      <workItem from="1655958689812" duration="394000" />
+      <workItem from="1656008497164" duration="17541000" />
+      <workItem from="1656045163883" duration="128000" />
+      <workItem from="1656091146513" duration="11230000" />
+    </task>
+    <task id="LOCAL-00001" summary="changes to model - renamed save">
+      <created>1654734214960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654734214960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished command tests">
+      <created>1654739810931</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654739810931</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished command tests">
+      <created>1654752630226</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654752630226</updated>
+    </task>
+    <task id="LOCAL-00004" summary="?????">
+      <created>1654813315177</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654813315177</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed controller">
+      <created>1654817777713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654817777713</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed controller to work with script">
+      <created>1654819602863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654819602863</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cleaned up GUI and added error handling">
+      <created>1655943435421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655943435421</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes to model - renamed save" />
+    <MESSAGE value="finished command tests" />
+    <MESSAGE value="?????" />
+    <MESSAGE value="fixed controller" />
+    <MESSAGE value="fixed controller to work with script" />
+    <MESSAGE value="cleaned up GUI and added error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up GUI and added error handling" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/controller/CommandTest.java</url>
+          <line>1006</line>
+          <properties class="controller.CommandTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/controller/CommandTest.java</url>
+          <line>541</line>
+          <properties class="controller.CommandTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/model/ImageFileTests.java</url>
+          <line>455</line>
+          <properties class="model.ImageFileTests" method="testInvalidInitialization2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/controller/FeaturesTest1.java</url>
+          <line>241</line>
+          <properties class="controller.FeaturesTest1" method="testGreyscale">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/controller/FeaturesTest1.java</url>
+          <line>268</line>
+          <properties class="controller.FeaturesTest1" method="testComponentVisualization">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/controller/FeaturesTest1.java</url>
+          <line>499</line>
+          <properties class="controller.FeaturesTest1" method="testSave">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/model/ImageFileTests.java</url>
+          <line>385</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/controller/LoadCommand.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

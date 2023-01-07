@@ -1,0 +1,98 @@
+#load Dog.ppm and call it 'dog'
+load res/Dog.ppm dog
+
+#load dog.bmp and calls it "dogBMP"
+load res/Dog.bmp dogBMP
+
+#brighten dog by adding 10  
+brighten 10 dog dog-brighter 
+
+#darken dog by subtracting 10
+brighten -10 dogBMP dog-darken
+
+#flip dog vertically
+vertical-flip dog dog-vertical
+
+#flip the dog horizontally
+horizontal-flip dog dog-horizontal
+
+#create a greyscale using only the red component, as an image dog-red
+red-component dog dog-red
+
+#create a greyscale using only the blue component, as an image dog-blu
+blue-component dog dog-blue
+
+#create a greyscale using only the green component, as an image dog-green
+green-component dog dog-green
+
+#create a greyscale using only the luma component, as an image dog-luma
+luma-component dog dog-luma
+
+#create a greyscale using only the intensity component, as an image dog-intensity
+intensity-component dog dog-intensity
+
+#create a greyscale using only the value component, as an image dog-value
+value-component dog dog-value
+
+#blurs the picture of the dog
+blur dogBMP dog-blur
+
+#sharpens the picture of the dog
+sharpen dogBMP dog-sharpen
+
+#applies the sepia filter on the dog picture
+sepia dogBMP dog-sepia
+
+#create a greyscale using only the luma component, as an image dog-luma
+greyscale dogBMP dog-luma2
+
+#save dog as a PNG
+save DogScript.png dog
+
+#save dog as a JPG
+save DogScript.jpg dog
+
+#save dog-brighter as PPM
+save BrightDogScript.ppm dog-brighter
+
+#save dog-darker as PPM
+save DarkDogScript.ppm dog-darken
+
+#save dog-vertical as PPM
+save VerticalFlipDogScript.ppm dog-vertical
+
+#save dog-horizontal as PPM
+save HorizontalFlipDogScript.ppm dog-horizontal
+
+#save dog-red as PPM
+save RedComponentDogScript.ppm dog-red
+
+#save dog-blue as PPM
+save BlueComponentDogScript.ppm dog-blue
+
+#save dog-green as PPM
+save GreenComponentDogScript.ppm dog-green
+
+#save dog-value as PPM
+save ValueComponentDogScript.ppm dog-value
+
+#save dog-intensity as PPM
+save IntensityComponentDogScript.ppm dog-intensity
+
+#save dog-luma as PPM
+save LumaComponentDogScript.ppm dog-luma
+
+#save dog-blur as PPM
+save BlurDogScript.ppm dog-blur
+
+#save dog-sharpen as PNG
+save SharpenDogScript.png dog-sharpen
+
+#save dog-sepia as JPG
+save SepiaDogScript.jpg dog-sepia
+
+#save dog-luma2 as BMP
+save GreyColorTransformationDogScript.bmp dog-luma2
+
+#quit the program
+q
