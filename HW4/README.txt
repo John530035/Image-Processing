@@ -11,6 +11,7 @@ There are three command line inputs that can be used to start the program.
   one line at a time and the program will execute those commands.
 - If the user chooses to enter "java -jar Program.jar" then a graphical user interface will be displayed. The use can
   interact with this interface as detailed in the USEME.txt file to operate the program.
+- Note: The correct jar file can be found at Image-Processing/HW4/res/HW6.jar
 
 
 Completed Functionality
